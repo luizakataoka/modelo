@@ -1,6 +1,6 @@
 name: Create Milestone JS
-  uses: sv-tools/create-milestone-action@v1.4.0
+  uses: sv-tools/create-milestone-action@v1
   with:
     token: ${{ secrets.GITHUB_TOKEN }}
-    title: Template Milestone
+    title: Next
     description: Next Release, To be renamed with a proper semver.
