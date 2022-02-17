@@ -10,6 +10,6 @@ action "Add an issue to project" {
 
   env = {
     PROJECT_URL         = "https://github.com/users/luizakataoka/projects/1/views/1"
-    INITIAL_COLUMN_NAME = "To do"
+    INITIAL_COLUMN_NAME = "To-do"
   }
 }
