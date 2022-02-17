@@ -1,5 +1,12 @@
-uses: sv-tools/create-milestone-action@v1
-with:
-  token: ${{ secrets.GITHUB_TOKEN }}
-  title: Next
-  description: Next Release, To be renamed with a proper semver.
+name: milestone-create
+on: [push]
+
+jobs:
+  milestone-create:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sv-tools/create-milestone-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: Next
+          description: Next Release, To be renamed with a proper semver.
