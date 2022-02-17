@@ -8,5 +8,5 @@ jobs:
       - uses: sv-tools/create-milestone-action@v1.4.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          title: Next
-          description: Next Release, To be renamed with a proper semver.
+          title: Milestone template
+          description: Next Release - description.
