@@ -9,4 +9,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Milestone template
-          description: Next Release - description.
+          description: Next Release - description of the next release
